@@ -1,0 +1,327 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: "Raleway";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 243, 243) !important;
+}
+
+.navbar {
+    background-color: rgb(255, 119, 0)!important;
+    position: fixed !important;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    color: or !important;
+}
+
+.navbar #navbarNav {
+    float: right !important;
+}
+
+.banner {
+    height: 70vh;
+    background: url("./../images/headerback.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.7;
+
+}
+
+.banner .banner-text  {
+    position: absolute;
+    width: 40%;
+    margin :0px 20%;
+    margin-top: 10%;
+}
+
+.banner .banner-text  .banner-title {
+    position:relative;
+}
+
+.banner .banner-text  .banner-title h1{
+    font-size: 30px;
+    opacity: 1;
+    color:  rgb(255, 119, 0);
+}
+
+.banner .banner-text  .banner-title button {
+    color:white;
+    background-color: rgb(255, 119, 0);
+    height: 6vh;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.banner .banner-text  .banner-title p {
+    color:gray;
+    font-size: 14px;
+}
+
+.about {
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+}
+.about h1 {
+    color :rgb(255, 119, 0);    
+}
+.about .description {
+    height: 100%;
+}
+.about .description .text h1 {
+    font-size: 27px;
+}
+.about .description .text {
+    margin-top: 8%;
+}
+.about .space {
+    width: 3px !important;
+    height: 100%;
+    background-color: aqua;
+}
+
+.about .about-element {
+    margin-top: 7%;
+}
+
+
+.images .images-list {
+
+}
+
+.images {
+    margin-top: 100% !important  ;
+}
+
+.images .images-list img{
+    width: 300px;
+    height: 200px;
+}
+
+.blog {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.blog h1 {
+    text-align: center;
+    color :rgb(255, 119, 0);
+    font-weight: bold;
+}
+
+.blog .cards {
+    margin-left: 10%;
+    margin-top: 3%;
+   
+}
+
+.blog .cards .card {
+    margin: 0px 15px;
+    box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.2);
+    height: 400px;
+}
+
+
+.blog .cards .card  img{
+    width:300px !important;
+    height: 30%;
+}
+
+
+.our-team {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.our-team h1 {
+    text-align: center;
+    color :rgb(255, 119, 0);
+    font-weight: bold;
+}
+.teams {
+    text-align: center;
+    margin-left: 15% !important;
+}
+
+.team {
+    width: 200px !important;
+    margin-top: 5% !important;
+}
+
+.team .team-text .name {
+    background:orangered;
+    border-bottom-left-radius: 60%;
+    width: 100%;
+    color:white;
+}
+
+.team .team-text .name p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.form{
+    margin: 10% !important;
+}
+.form button {
+    background:orangered;
+    color:white;
+    border: none;
+}
+
+
+.portfolio {
+    margin-top: 35%;
+}
+
+.portfolio h1 {
+    text-align: center;
+    color :rgb(255, 119, 0);
+    font-weight: bold;
+}
+
+.portfolio .sections {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.portfolio .sections .section {
+    margin-top: 15px;
+}
+
+.portfolio .sections .section img {
+    height: 200px;
+}
+
+
+.icons {
+    display: block !important;
+    text-align: center;
+}
+.icons i {
+    display: inline;
+    font-size: 25px;
+    color:rgb(255, 119, 0);
+}
+
+@media (min-width:0px) and (max-width:700px) {
+
+    .banner .banner-text  .banner-title h1 {
+        font-size: 25px;
+    }
+
+    .banner .banner-text {
+        margin-top: 20% !important;
+    }
+    .teams {
+        text-align: center;
+        margin-left: 0% !important;
+    }
+    
+    .team {
+        width: auto !important;
+        margin-top: 5% !important;
+      
+    }
+
+    .our-team {
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    .about{
+        text-align: center;
+    }
+
+    .portfolio {
+        margin-top: 140% !important;
+    }
+    
+    .our-team h1 {
+        text-align: center;
+        color :rgb(255, 119, 0);
+        font-weight: bold;
+    }
+    .teams {
+        text-align: center;
+        margin-left: 15% !important;
+    }
+
+    .about .space {
+        display: none;
+    }
+
+
+
+    .blog {
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .blog h1 {
+        text-align: center;
+        color :rgb(255, 119, 0);
+        font-weight: bold;
+    }
+    
+    .blog .cards {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    
+    .blog .cards .card {
+        margin: 10px 0px;
+        box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.0);
+        height: auto;
+        width: 800px !important;
+    }
+    
+    
+    .blog .cards .card  img{
+        width:100% !important;
+        height: auto;
+    }
+    
+}
+
+@media (min-width:700px) and (max-width:900px) {
+
+    .portfolio {
+        text-align: center;
+        margin: 0px !important;
+        margin-top: 50% !important;
+    }
+
+    .blog .cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .blog .cards .card {
+        margin: 10px 0px;
+        box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.0);
+        height: 300px;
+        width: 500px !important;
+    }
+}
